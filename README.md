@@ -1,0 +1,1 @@
+A simple calculator App too test my vanilla javascript knowlage and programming concepts.
