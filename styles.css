@@ -14,10 +14,8 @@ body {
 
 .heading {
     font-size: 3rem;
-    position: absolute;
-    left: 50%;
-    top: 50px;
-    translate: -50%;
+    text-align: center;
+    margin-block: 2rem;
 }
 
 .calculator-container {

@@ -28,4 +28,3 @@ function calculate(valuesArray) {
     }
 }
 
-export default calculate

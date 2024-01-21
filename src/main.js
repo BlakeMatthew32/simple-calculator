@@ -1,4 +1,4 @@
-import calculate from "./calculate"
+// import calculate from "./calculate"
 
 const calcDisplay = document.querySelector("#display")
 const calcButtons = document.getElementsByClassName("calc-button")
