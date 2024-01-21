@@ -1,20 +1,17 @@
+import calculate from "./calculate"
 
 const calcDisplay = document.querySelector("#display")
 const calcButtons = document.getElementsByClassName("calc-button")
 
 function evaluate() {
-    try {
-        calcDisplay.value = eval(calcDisplay.value)
-    }
-    catch(error) {
-        calcDisplay.value = "Error"
-    }
+    const values = calcDisplay.value.split(' ')
+    return calculate(values)
 }
 
 function handleClick(value) {
     switch (value) {
         case "=": 
-            evaluate()
+            calcDisplay.value = evaluate()
             break
         case "C": 
             calcDisplay.value = ""
